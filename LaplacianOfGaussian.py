@@ -3,7 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 
 # Đọc ảnh gốc dưới dạng grayscale
-image = cv2.imread('img.jpg', cv2.IMREAD_GRAYSCALE)
+image = cv2.imread('img2.jpg', cv2.IMREAD_GRAYSCALE)
 
 # 1. Dò biên sử dụng toán tử Sobel
 sobel_x = cv2.Sobel(image, cv2.CV_64F, 1, 0, ksize=3)  # Gradient theo hướng x
